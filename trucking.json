@@ -1,14 +1,13 @@
 {
-    "version": "1.0.0",
+    "version": "3.0.0",
     "changelog": [
-        "Initial release",
-        "Added slots game",
-        "Added plinko game",
-        "Added mines game",
-        "Added dice game",
-        "Added coinflip game",
+        "Adds target system selection in config",
+        "Only allows qb-target when using QB-Core framework",
+        "Uses ox_target as default for other frameworks",
+        "Added proper ESX player handling for both string identifiers and source IDs",
+        "Player gets new keys after each delivery",
+        "Keys are removed when job is finished or canceled",
         "Added multi-framework support (ESX/QB/QBX)",
-        "Added banking system",
-        "Added player statistics"
+        "Cancel all active deliveries when the script stops",
     ]
 } 
