@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "changelog": [
+        "Initial release",
+        "Added slots game",
+        "Added plinko game",
+        "Added mines game",
+        "Added dice game",
+        "Added coinflip game",
+        "Added multi-framework support (ESX/QB/QBX)",
+        "Added banking system",
+        "Added player statistics"
+    ]
+} 
