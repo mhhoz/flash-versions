@@ -1,1 +1,14 @@
-
+{
+    "version": "1.1.0",
+    "changelog": [
+        "Update text colors for better contrast",
+        "Update all background colors to use the new dark theme",
+        "Update button colors with hover states",
+        "Improve the layout with proper spacing between icon and text",
+        "Change the text to be more descriptive (`MARKETPLACE` and `MY VEHICLES`)",
+        "Adjust the card sizes and spacing to fit better in the new layout",
+        "The status badges now look more consistent with the plate and class badges while still maintaining their distinct colors and icons.",
+        "Maintain the status badges with icons only in the `MY VEHICLES` tab",
+        "Remove the status badges from the marketplace tab since all cars there are listed for sale anyway"
+    ]
+}
