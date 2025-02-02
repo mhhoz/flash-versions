@@ -1,13 +1,24 @@
 {
-    "version": "3.1.0",
-    "changelog": [
-        "Adds target system selection in config",
-        "Only allows qb-target when using QB-Core framework",
-        "Uses ox_target as default for other frameworks",
-        "Added proper ESX player handling for both string identifiers and source IDs",
-        "Player gets new keys after each delivery",
-        "Keys are removed when job is finished or canceled",
-        "Added multi-framework support (ESX/QB/QBX)",
-        "Cancel all active deliveries when the script stops",
-    ]
-} 
+  "version": "3.2.0",
+  "changelog": [
+    "# Flash Trucking Job - v3.2.0",
+    "## Bug Fixes:",
+    "- Fixed the issue where players could end their job at the delivery point.",
+    "- Corrected earnings tracking.",
+    "- Fixed zone persistence issues.",
+    "## Improvements:",
+    "- Added proper cleanup of zones.",
+    "- Forced players to return to the depot for payment.",
+    "- Implemented cleanup improvements with safe removal and cleanup on job cancellation.",
+    "## Changes:",
+    "### TextUI System:",
+    "Added support for both native and `ox_lib` TextUI, with new locale entries and separated key instructions.",
+    "### Blip Configuration:",
+    "- Blip settings [`name`, `sprite`, `colour`, `scale`, `display`] can now be fully customized in the config file.",
+    "### Locale System:",
+    "- Added support for multiple languages.",
+    "- Updated the locale structure.",
+    "- Added localization files, so the script now supports multiple languages [`fr`, `es`, `de`, `it`, `pt`].",
+    "- Made `TextUI` messages (displayed when a player finishes a job or delivers goods) configurable between `native` GTA and `ox_lib` options."
+  ]
+}
