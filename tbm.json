@@ -1,6 +1,19 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "changelog": [
-        "",
+        "Database updated: new column added to distinguish between vehicle and item transactions",
+        "Automatically mark vehicle purchases as claimed",
+        "Show different information in the history page based on transaction type",
+        "Update the webhook logs to properly format vehicle purchase information",
+        "Removed unnecessary delays in the purchase process",
+        "Immediately request new listings after purchase",
+        "Make the interface more responsive and interactive",
+        "Made styles more maintainable and specific to the items market",
+        "Correct buyer/seller name displayed on the history page",
+        "Transaction type (sale/purchase) correctly determined",
+        "Organized information in a clearer hierarchy",
+        "Added a filter for vehicle and item transactions in the History page",
+        "Added filter buttons for All, Vehicles, and Items"
     ]
 }
+
