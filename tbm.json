@@ -1,17 +1,6 @@
 {
-    "version": "2.3.0",
+    "version": "2.4.0",
     "changelog": [
-        "Vehicle description now clears upon purchase, setting the field to NULL",
-        "Framework-specific database operations to improve stability and compatibility",
-        "Scrolling on all pages for a smoother user experience, ensuring long lists and content are easily accessible without layout issues",
-        "Option to enable or disable vehicle pages from the config file for better customization",
-        "Ability to use custom notifications by modifying shared/notification.lua, allowing greater flexibility in alert styles and messages",
-        "Added a filter for vehicle and item transactions on the history page",
-        "Added filter buttons for 'All', 'Vehicles', and 'Items'",
-        "Updated database: added a new column to distinguish between vehicle and item transactions",
-        "Updated webhook logs to properly format vehicle purchase information",
-        "Improved framework detection to prevent misidentification between ESX, QBX, and QB",
-        "Show different information on the history page based on the transaction type",
         "Removed unnecessary delays in the purchase process",
         "Corrected buyer/seller name display on the history page"
     ]
