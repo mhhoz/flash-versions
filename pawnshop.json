@@ -1,6 +1,15 @@
 {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "changelog": [
-        ""
+        "Added multi-language support; now you can select your preferred language.",
+        "Added language selection in `Config.Locale`.",
+        "Support for multiple languages including English, French, Spanish, and more.",
+        "Added a command to open Prices list page to let the players track the prices.",
+        "New Prices Command:",
+        "- Players can now check current pawnshop prices from anywhere.",
+        "- Shows real-time market prices for all items.",
+        "- Displays price trends and changes.",
+        "- Easy to use search and sort features.",
+        "- Shows base prices for comparison."
     ]
 }
