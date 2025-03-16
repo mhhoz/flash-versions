@@ -1,7 +1,6 @@
 {
-    "version": "2.4.0",
+    "version": "2.5.0",
     "changelog": [
-        "Removed unnecessary delays in the purchase process",
-        "Corrected buyer/seller name display on the history page"
+        ""
     ]
 }
