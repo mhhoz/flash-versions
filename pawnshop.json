@@ -1,16 +1,19 @@
 {
-    "version": "1.1.1",
+    "version": "1.2.0",
     "changelog": [
         "Added",
-        "Image placeholder functionality for items in the Market page, Sell page and Prices window /prices command",
-        "Loading indicator improvements in the Market page",
-        "Error handling for image loading failures",
-        "Changed",
-        "Modified the Market component to handle loading states more effectively",
-        "Improved the server-side market prices handling to send all items at once",
-        "Fixed",
-        "Fixed the market prices data handling to ensure all items are properly displayed",
-        "Fixed the issue where only one item would appear after loading multiple items in the Market page",
-        "Fixed an issue where adding a large number of products caused prices to not display on the market page"
+        "- UI changes and improvements",
+        "- Supports multiple currency types with price aggregation by currency type",
+        "- Locals files updated and added more locals: Polish (PL), Russian (RU), and Dutch (NL)",
+        "- Sales Overview Chart:",
+        "  - Supports multiple currencies with different colors",
+        "  - Has interactive currency toggles above the chart",
+        "  - Includes hover tooltips with detailed information",
+        "  - Custom tooltip showing:",
+        "    - Total value",
+        "    - Individual currency breakdowns",
+        "    - Date/time information",
+        "  - Animated transitions for data changes",
+        "  - Smooth animations that don't impact performance"
     ]
 }
