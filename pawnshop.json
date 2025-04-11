@@ -1,14 +1,6 @@
 {
-    "version": "1.3.0",
+    "version": "1.3.1",
     "changelog": [
-        "Added global price view for all items across pawnshops.",
-        "Fixed Home tab refresh issue after sales.",
-        "Fixed inventory not updating immediately after a sale.",
-        "Fixed inconsistent data display on the main page when switching sections.",
-        "Changed item setup to reusable 'Product Lists' for pawnshops.",
-        "Updated backend to support the new product list system.",
-        "Market prices now require a shop ID for specific item display.",
-        "Improved currency handling for sales and price calculations.",
-        "Reorganized dashboard data handling for consistent updates."
+        ""
     ]
 }
