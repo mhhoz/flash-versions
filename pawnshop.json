@@ -1,6 +1,27 @@
 {
-    "version": "1.3.1",
-    "changelog": [
-        ""
-    ]
+  "version": "1.3.1",
+  "changelog": [
+    "### Sell Page Improvements",
+    "- Fixed empty state flashing with smooth fade transitions",
+    "- Improved loading state management and inventory update handling",
+    "- Prevented unnecessary UI flashing during loading",
+    "- Added a red-themed 'Remove All' button next to the Sell button",
+    "- Ensured equal width for action area buttons",
+    "- 'Remove All' enables quick clearing of all selected items",
+
+    "### Prices Window Fixes",
+    "- Fixed grid layout and padding inconsistencies",
+    "- Implemented proper height calculations and improved scrolling behavior",
+    "- Added sticky header for better navigation",
+    "- Removed background colors from badges for a cleaner look",
+    "- Improved alignment of grid items",
+
+    "### Price System Updates",
+    "- Added new 'SeparateShopPrices' configuration option",
+    "- Improved price calculation system using actual sales data",
+    "- Enhanced handling of shop-specific pricing",
+    "- Introduced proper tracking of sales count per item per shop",
+    "- Sales count now updates automatically with each transaction",
+    "- More accurate tracking of item sales history"
+  ]
 }
