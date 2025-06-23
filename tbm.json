@@ -1,17 +1,15 @@
 {
-    "version": "2.5.2",
+    "version": "2.6.0",
     "changelog": [
-        "Added dropdown-style durability tooltip for items in the Items Market",
-        "Added in-grid loading state for both Vehicle and Items Markets",
-        "Added optional `financed` column for vehicle tables in both ESX and QB/QBX frameworks",
-        "Improved database initialization to support JG Dealership integration",
-        "Updated local files with new locales: zh-CN and zh-TW",
-        "Added option to hide seller name for specific currencies in market listings (automatically hides seller's name in Items Market UI when `hideSeller` is true)",
-        "Removed `listing_id` from `flash_market_transactions` table",
-        "Improved notification messages for better readability",
-        "Enhanced README documentation with more detailed SQL installation instructions",
-        "Removed separate loading overlays",
-        "Fixed durability display and tooltip functionality",
-        "Resolved collation issues in MySQL queries for transaction history"
+        "Added detailed configuration and installation documentation in README.md and Flash Docs",
+        "Added owner tags for vehicle listings to identify personal listings",
+        "Added support for separate markets with unique configurations",
+        "Added multi-location support for market NPCs, each with unique jobs, vehicles, and commands",
+        "Changed: Optimized SQL queries for improved performance",
+        "Changed: Refactored blacklisted vehicles initialization to be market-specific",
+        "Changed: Improved market configuration for multiple independent markets",
+        "Changed: Expanded NPC location configuration for multiple market points",
+        "Fixed UI notification display and formatting issues, improved notification system",
+        "Fixed framework initialization issues in QBCore and QBox support"
     ]
 }
