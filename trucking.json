@@ -1,24 +1,6 @@
 {
-  "version": "3.2.0",
+  "version": "3.4.0",
   "changelog": [
-    "# Flash Trucking Job - v3.2.0",
-    "## Bug Fixes:",
-    "- Fixed the issue where players could end their job at the delivery point.",
-    "- Corrected earnings tracking.",
-    "- Fixed zone persistence issues.",
-    "## Improvements:",
-    "- Added proper cleanup of zones.",
-    "- Forced players to return to the depot for payment.",
-    "- Implemented cleanup improvements with safe removal and cleanup on job cancellation.",
-    "## Changes:",
-    "### TextUI System:",
-    "Added support for both native and `ox_lib` TextUI, with new locale entries and separated key instructions.",
-    "### Blip Configuration:",
-    "- Blip settings [`name`, `sprite`, `colour`, `scale`, `display`] can now be fully customized in the config file.",
-    "### Locale System:",
-    "- Added support for multiple languages.",
-    "- Updated the locale structure.",
-    "- Added localization files, so the script now supports multiple languages [`fr`, `es`, `de`, `it`, `pt`].",
-    "- Made `TextUI` messages (displayed when a player finishes a job or delivers goods) configurable between `native` GTA and `ox_lib` options."
+    "# Flash Trucking Job - v3.4.0"
   ]
 }
