@@ -1,6 +1,23 @@
 {
-  "version": "2.1.0",
+  "version": "2.3.0",
   "changelog": [
-    ""
+    "### Configuration Updates",
+    "Enhanced `Config.PriceFluctuation` in `shared/config.lua` with new parameters:",
+    "* `baseFactor`: Controls the base rate of price changes.",
+    "* `noActivityDivisor`: Minimizes price changes during low market activity.",
+    "* `salesRatioThresholdHigh`: Threshold for price decreases.",
+    "* `salesRatioThresholdLow`: Threshold for price increases.",
+    "* `singleActivityMultiplier`: Reduces impact of one-sided market activity.",
+    "Refactored price calculation algorithm so now the prices adjust dynamically based on sales-to-purchase ratio.",
+    "Reduced extreme price volatility for a more stable economy.",
+    "### Trending Items",
+    "Trending calculation now includes both sales and purchases counts.",
+    "### qs-inventory",
+    "`Inventory.RegisterStash` has been fixed and checks for existing stash to prevent duplicates.",
+    "Fixed unlimited buying of shop items bug.",
+    "Fixed inconsistencies with money (cash, bank, money) handling.",
+    "Ensured accurate stock reduction when items are sold or bought.",
+    "### Note",
+    "The `config.lua` needs to be updated."
   ]
 }
