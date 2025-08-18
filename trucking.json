@@ -1,6 +1,17 @@
 {
   "version": "3.4.0",
   "changelog": [
-    "# Flash Trucking Job - v3.4.0"
+    "# Flash Trucking Job - v3.4.0",
+    "### UI Improvements:",
+    "- Redesigned header navigation layout",
+    "- Integrated history button within navigation tabs",
+    "- Added more descriptive empty state messaging",
+    "- Improved overall header responsiveness",
+    "- Prevented default tab switching for history button",
+    "",
+    "### Fixed:",
+    "* Fixed null values in database causing issues with top players retrieval",
+    "* Fixed player names not displaying correctly in top players list",
+    "* Fixed database insertion of records with null player identifiers"
   ]
 }
